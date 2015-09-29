@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dyve</string>
+
+
+    <!--activity_login.xml strings -->
+    <string name="login">Login</string>
+    <string name="login_button">Dyve Log in</string>
+    <string name="register_button">Dyve Register</string>
+    <string name="login_facebook">Facebook Log in</string>
+    <string name="login_google">Google Log in</string>
+
+    <!--fragment_login.xml strings -->
+    <string name="username">Username&#8230;</string>
+    <string name="password">Password&#8230;</string>
+    <string name="login_fragment">Log In</string>
+
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <include
+        layout="@layout/header"
+        android:id="@+id/include_header"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_side"
+        android:layout_marginRight="@dimen/margin_side"
+        android:layout_below="@id/include_header">
+        
+        <Button
+            android:id="@+id/activity_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_button"/>
+
+        <Button
+            android:id="@+id/activity_login_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_button"/>
+
+        <Button
+            android:id="@+id/activity_login_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_facebook"/>
+
+        <Button
+            android:id="@+id/activity_login_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_google"/>
+
+    </LinearLayout>
+</RelativeLayout>
