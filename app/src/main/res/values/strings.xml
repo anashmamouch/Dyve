@@ -12,7 +12,11 @@
     <!--fragment_login.xml strings -->
     <string name="username">Username&#8230;</string>
     <string name="password">Password&#8230;</string>
+    <string name="email">Email&#8230;</string>
     <string name="login_fragment">Log In</string>
 
+    <!--activity_register.xml strings -->
+    <string name="register">Register</string>
+    <string name="test_login">Test Login</string>
 
 </resources>
